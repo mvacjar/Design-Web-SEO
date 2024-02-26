@@ -150,7 +150,7 @@ header {
 }
 
 .greeting-section-title {
-  margin: 1rem;
+  margin-bottom: 1rem;
 }
 
 .greeting-text-extended,
@@ -179,8 +179,6 @@ header {
 
 /* --- Horizontal Section --- */
 .horizontal-container {
-  /* height: 100vh; */
-  /* width: auto; */
   background: #b0c8bc;
   display: flex;
   flex-direction: row;
@@ -196,6 +194,7 @@ header {
 .horizontal-container-title {
   color: #2f312b;
   text-align: center;
+  margin: 2rem 1rem;
 }
 
 .horizontal-container-title {
@@ -209,18 +208,10 @@ header {
   width: 35rem;
   height: auto;
   padding: 2rem;
-  margin: 5rem;
+  margin: 7rem 5rem;
   border-radius: 30px;
   box-shadow: 30px 21px 51px -17px #6e7361;
   background-color: #fff;
-}
-
-.horizontal-card:first-child {
-  margin-left: 10rem;
-}
-
-.horizontal-card:last-child {
-  margin-right: 10rem;
 }
 
 .horizontal-title {
@@ -263,7 +254,7 @@ header {
 .vertical-container-title {
   color: #2f312b;
   text-align: center;
-  margin-top: 0;
+  margin-top: 2rem;
 }
 
 .vertical-card {
@@ -338,10 +329,6 @@ footer {
   line-height: 3;
   text-align: center;
 }
-/* 
-.footer-copyright {
-  white-space: nowrap;
-} */
 
 .footer-links a {
   text-decoration: none;
@@ -369,14 +356,8 @@ footer {
 
   .horizontal-card {
     width: 35rem;
-    height: 55em;
+    height: 45rem;
     margin: 7rem 4rem;
-  }
-  .horizontal-card:first-child {
-    margin-left: 6rem;
-  }
-  .horizontal-card:last-child {
-    margin-right: 6rem;
   }
 
   .horizontal-text {
@@ -465,9 +446,8 @@ footer {
   }
 
   /* --- Horizontal Section --- */
-
   .horizontal-card {
-    height: 45rem;
+    height: 47rem;
     max-width: 80%;
   }
 
@@ -484,7 +464,6 @@ footer {
 }
 
 /* Contact */
-
 .contact-form {
   background: #fafafa;
   max-width: 25rem;
