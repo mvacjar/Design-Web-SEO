@@ -423,6 +423,28 @@ footer {
     padding: 0.7rem;
   }
 }
+
+/* WORK IN PROGRESS PAGES */
+.wip-background {
+  background-image: url("images/scene-haikei.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 300%;
+  color: white;
+  text-shadow: 2px 2px 1px #9bc9b1;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 37rem) {
   /* --- Navbar --- */
 
