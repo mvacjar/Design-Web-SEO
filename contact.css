@@ -1,0 +1,177 @@
+:root {
+  --font-size-xs: 1rem;
+  --font-size-sm: 1.2rem;
+  --font-size-md: 1.5rem;
+  --font-size-lg: 2rem;
+  --font-size-xl: 2.5rem;
+  --font-size-xxl: 3.5rem;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: var(--font-size-xxl);
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: var(--font-size-xl);
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: var(--font-size-lg);
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-weight: 600;
+}
+
+.body-container {
+  background-image: url("images/background-header.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* --- Navbar --- */
+
+.nav-menu-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.nav-menu-items {
+  color: #fff;
+  border: 3px solid #fff;
+  padding: 1rem 2rem;
+  font-size: var(--font-size-md);
+  box-shadow: 5px 5px 10px #45483f48;
+  text-shadow: 2px 2px 10px #2f312b;
+  font-weight: 600;
+}
+
+.nav-menu-items:hover {
+  transform: scale(0.95);
+}
+
+/*  --- Greetings About Us --- */
+
+.contact-section {
+  margin: 5rem 0rem 2rem 10rem;
+  color: white;
+  width: 80%;
+}
+
+.greeting-text-extended {
+  text-align: justify;
+  line-height: 2;
+  font-size: var(--font-size-md);
+  margin-bottom: 3rem;
+}
+
+/* --- Contact Form --- */
+.container-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 35rem;
+  height: auto;
+  padding: 2rem 2.5rem;
+  border-radius: 0.5rem;
+  background-color: #d8eee3;
+  box-shadow: 0px 12px 39px 12px #21221d;
+}
+
+.contact-title {
+  font-size: var(--font-size-xl);
+  margin: 1rem;
+  text-align: center;
+  color: #000;
+}
+
+.input-form {
+  margin: 0.5rem 0rem;
+  height: 2rem;
+}
+
+textarea {
+  height: 10rem;
+  margin: 0.5rem 0rem 1rem;
+}
+
+.contact-button {
+  text-align: center;
+  white-space: nowrap;
+  width: 40%;
+  height: 2rem;
+}
+
+/* --- Footer --- */
+
+footer {
+  height: 7rem;
+  font-size: var(--font-size-sm);
+  background: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  font-size: var(--font-size-sm);
+}
+
+.footer-developers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 3;
+  text-align: center;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #9bc9b1;
+}
+
+.footer-links a:hover {
+  font-weight: 700;
+}
