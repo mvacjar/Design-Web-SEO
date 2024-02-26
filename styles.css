@@ -430,19 +430,33 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .wip {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   font-size: 300%;
-  color: white;
+  color: #4b7c64;
   text-shadow: 2px 2px 1px #9bc9b1;
 }
-a {
-  text-decoration: none;
-  color: inherit;
+
+.wip-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--font-size-xxl);
+  color: #4b7c64;
+  text-shadow: 2px 2px 1px #9bc9b1;
+  text-decoration: underline;
+}
+
+.wip-a {
+  color: #4b7c64;
 }
 
 @media (max-width: 37rem) {
