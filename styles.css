@@ -56,8 +56,8 @@ button {
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
-  width: 27rem;
-  height: 25rem;
+  max-width: 27rem;
+  min-height: 25rem;
   padding: 2rem 2.5rem;
   border-radius: 0.5rem;
   text-align: center;
@@ -137,7 +137,7 @@ header {
 /* --- Greeting Text --- */
 
 .greeting-container {
-  margin: 5rem 0rem 2rem 10rem;
+  padding: 5rem 0rem 2rem 10rem;
 }
 
 .greeting-section {
@@ -324,7 +324,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 3;
   text-align: center;
 }
 
@@ -370,13 +369,13 @@ footer {
 
   .horizontal-card {
     width: 35rem;
-    height: 45rem;
+    min-height: 45rem;
     margin: 7rem 4rem;
   }
 
   .horizontal-text {
     padding: 2rem 0rem;
-    line-height: 2.2;
+    line-height: 1.8;
   }
 
   /* --- Vertical Section --- */
@@ -414,10 +413,7 @@ footer {
     align-items: center;
   }
 
-  .footer-developers {
-    line-height: 2;
-    padding: 3rem;
-  }
+
 
   .footer-items {
     padding: 0.7rem;
@@ -487,8 +483,12 @@ footer {
   }
 
   /* --- Greeting Section --- */
+  .greeting-header {
+    padding-left: 2.5rem;
+  }
+
   .greeting-container {
-    margin: 4rem 0;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -497,7 +497,7 @@ footer {
 
   /* --- Horizontal Section --- */
   .horizontal-card {
-    height: 47rem;
+    min-height: 47rem;
     max-width: 80%;
   }
 
