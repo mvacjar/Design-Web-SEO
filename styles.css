@@ -216,7 +216,6 @@ header {
 }
 
 .horizontal-text {
-  overflow: auto;
   white-space: wrap;
   padding: 2.5rem 0rem 2rem;
   text-align: justify;
