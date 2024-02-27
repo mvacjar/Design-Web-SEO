@@ -87,7 +87,7 @@ button {
 }
 
 .popup-input {
-  font-size: var(sm);
+  font-size: var(--font-size-sm);
   margin-top: 1rem;
   padding: 0.35rem 1rem;
 }
@@ -454,6 +454,18 @@ footer {
 }
 
 @media (max-width: 37rem) {
+
+  .popup-input {
+    width: auto;
+    height: 48px;
+    font-size: var(--font-size-xs);
+    margin-bottom: 0.5rem;
+  }
+  
+  .popup-button-subscribe {
+    height: 48px;
+  }
+
   /* --- Navbar --- */
 
   .nav-menu {
