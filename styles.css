@@ -288,7 +288,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 2rem;
 }
 
 .vertical-container-image img {
@@ -504,6 +503,10 @@ footer {
 
   .vertical-container-title {
     margin-top: 2rem;
+  }
+
+  .vertical-container-image {
+    margin-left: 0;
   }
 
   /* --- Footer --- */
