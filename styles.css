@@ -237,7 +237,7 @@ header {
   height: auto;
   background: url("images/scene-haikei.png");
   background-size: cover;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .vertical-wrapper {
