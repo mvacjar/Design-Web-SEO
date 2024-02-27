@@ -48,7 +48,7 @@ button {
 }
 
 .body-container {
-  background-image: url("images/background-header.jpg");
+  background-image: url("images/background-header-min.jpg");
   background-size: cover;
   min-height: 100vh;
 }
@@ -133,6 +133,12 @@ textarea {
   white-space: nowrap;
   width: auto;
   height: 2rem;
+  font-size: var(--font-size-sm);
+  background-color: #455f4c;
+  color: white;
+  border: 2px solid #fff;
+  padding: 0.3rem 1rem;
+  box-shadow: 5px 5px 28px#21221d68;
 }
 
 /* --- Footer --- */
@@ -181,7 +187,6 @@ footer {
   .contact-section {
     margin: auto;
   }
-
 }
 
 @media (max-width: 37rem) {
